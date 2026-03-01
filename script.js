@@ -333,6 +333,39 @@ const ingredientDatabase = {
     }
 };
 
+    // Additional traditional oils
+    ingredientDatabase["Nalpamarathi Thailam"] = {
+        description: "Traditional Ayurvedic oil used for deep scalp nourishment and hair strengthening.",
+        benefits: {
+            "Vata": "✅ Excellent - grounding and deeply nourishing",
+            "Pitta": "⚠️ Moderate - slightly warming, use sparingly",
+            "Kapha": "⚠️ Moderate - may be heavy for Kapha"
+        },
+        healthBenefits: ["Reduces hair fall", "Nourishes scalp", "Improves hair texture", "Promotes shine"],
+        sideEffects: {
+            "Vata": "Generally safe, may be drying if overused",
+            "Pitta": "May increase heat in sensitive skin",
+            "Kapha": "Can feel heavy or oily"
+        },
+        dosage: "Apply to scalp and hair, leave 30-60 minutes or overnight, 2-3 times weekly"
+    };
+
+    ingredientDatabase["Kumkumadi Thailam"] = {
+        description: "Classical Ayurvedic facial oil with saffron and nourishing herbs for skin radiance and pigmentation control.",
+        benefits: {
+            "Vata": "✅ Good - nourishing and balancing",
+            "Pitta": "⚠️ Moderate - cooling but contains potent herbs, patch test advised",
+            "Kapha": "✅ Good - hydrating and rejuvenating"
+        },
+        healthBenefits: ["Brightens skin", "Reduces pigmentation", "Hydrates and smooths fine lines", "Improves complexion"],
+        sideEffects: {
+            "Vata": "May feel slightly oily if used daytime",
+            "Pitta": "Patch test recommended for sensitive skin",
+            "Kapha": "Generally safe, very nourishing"
+        },
+        dosage: "Apply a small amount to cleansed face at night; massage gently and leave overnight"
+    };
+
 // ========== BODY TYPE (DOSHA) INFORMATION ==========
 const bodyTypeInfo = {
     "Vata": {
@@ -696,6 +729,37 @@ const products = [
         actualIngredients: ["Natural Beeswax", "Rose Extract", "Mint Oil", "Coconut Oil", "Almond Oil", "Vitamin E"],
         image: "💄",
         description: "Nourishing organic lip balm with protective beeswax, cooling rose extract, and refreshing mint. Provides long-lasting hydration and prevents lip dryness. Gentle enough for daily use and contains no artificial colors or flavors."
+    }
+    ,
+    {
+        id: 23,
+        name: "Nalpamarathi Thailam (Traditional Hair Oil)",
+        brand: "HerbPlus",
+        category: "hair-care",
+        price: 620,
+        rating: 4.8,
+        reviews: 142,
+        safetyRating: "5-star",
+        certifications: ["Natural", "Cruelty-Free"],
+        ingredients: ["Nalpamarathi Thailam", "Sesame Oil"],
+        actualIngredients: ["Traditional Nalpamarathi herbal infusion", "Organic Sesame Oil", "Brahmi Extract", "Amla"],
+        image: "🌿",
+        description: "Traditional Ayurvedic hair oil for deep nourishment, reducing hair fall and improving scalp health. Best used warm for scalp massage."
+    },
+    {
+        id: 24,
+        name: "Kumkumadi Thailam (Radiance Facial Oil)",
+        brand: "Sattva",
+        category: "skincare",
+        price: 980,
+        rating: 4.9,
+        reviews: 210,
+        safetyRating: "5-star",
+        certifications: ["India Organic"],
+        ingredients: ["Kumkumadi Thailam", "Rose Extract"],
+        actualIngredients: ["Saffron (Kesar)", "Sandalwood Oil", "Sesame Oil", "Kumkumadi herbal blend"],
+        image: "✨",
+        description: "Classical Kumkumadi oil to promote skin radiance, reduce pigmentation, and deeply nourish the skin overnight. Patch test recommended for sensitive skin."
     }
 ];
 
