@@ -36,6 +36,7 @@ const ingredientDatabase = {
             "Vata": "⚠️ Cooling - helpful for dryness",
             "Pitta": "✅ Excellent - very cooling",
             "Kapha": "✅ Good - reduces congestion"
+            
         },
         healthBenefits: ["Deep hydration", "Heals burns", "Reduces inflammation", "Skin healing"],
         sideEffects: {
