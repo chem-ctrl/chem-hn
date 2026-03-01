@@ -135,6 +135,201 @@ const ingredientDatabase = {
             "Kapha": "May increase heaviness, take with digestive spices"
         },
         dosage: "25-30g per serving, once daily post-workout"
+    },
+    "Coconut Oil": {
+        description: "Pure organic coconut oil for skin and hair",
+        benefits: {
+            "Vata": "✅ Excellent - deeply nourishing and warming",
+            "Pitta": "⚠️ Moderate - can be slightly warming",
+            "Kapha": "❌ Avoid - too heavy and oily"
+        },
+        healthBenefits: ["Deep hydration", "Hair nourishment", "Skin softening", "Antifungal properties"],
+        sideEffects: {
+            "Vata": "Generally safe, very beneficial",
+            "Pitta": "May increase body heat if excess, use with cooling herbs",
+            "Kapha": "May increase heaviness and greasiness"
+        },
+        dosage: "Apply topically as needed, 1-2 tbsp daily for hair/skin"
+    },
+    "Sandalwood": {
+        description: "Cooling aromatic wood with skin-soothing properties",
+        benefits: {
+            "Vata": "⚠️ Moderate - cooling but can be drying",
+            "Pitta": "✅ Excellent - very cooling and calming",
+            "Kapha": "⚠️ Moderate - cooling may reduce warmth"
+        },
+        healthBenefits: ["Skin cooling", "Acne reduction", "Anti-inflammatory", "Spiritual calming"],
+        sideEffects: {
+            "Vata": "May increase dryness if applied excessively",
+            "Pitta": "Generally safe, very beneficial",
+            "Kapha": "Minimal side effects, slightly cooling"
+        },
+        dosage: "Apply paste topically or use powder 1-2 times daily"
+    },
+    "Sesame Oil": {
+        description: "Warming organic sesame oil with grounding properties",
+        benefits: {
+            "Vata": "✅ Excellent - deeply grounding and warming",
+            "Pitta": "❌ Heating - avoid or use sparingly",
+            "Kapha": "⚠️ Moderate - warming but potentially heavy"
+        },
+        healthBenefits: ["Joint support", "Muscle relaxation", "Detoxification", "Deep warming"],
+        sideEffects: {
+            "Vata": "Generally safe, very nourishing",
+            "Pitta": "Can increase body heat and inflammation",
+            "Kapha": "May increase heaviness"
+        },
+        dosage: "Use for abhyanga (oil massage) or 1-2 tbsp daily"
+    },
+    "Rose Extract": {
+        description: "Cooling floral extract with calming properties",
+        benefits: {
+            "Vata": "⚠️ Moderate - cooling but uplifting",
+            "Pitta": "✅ Excellent - very cooling and soothing",
+            "Kapha": "⚠️ Moderate - may increase coolness"
+        },
+        healthBenefits: ["Skin moisturization", "Emotional balance", "Anti-inflammatory", "Fragrance"],
+        sideEffects: {
+            "Vata": "May feel slightly cool, pair with warming oils",
+            "Pitta": "Generally safe, very beneficial",
+            "Kapha": "Minimal side effects"
+        },
+        dosage: "Apply topically as needed or use in skincare"
+    },
+    "Ghee": {
+        description: "Clarified butter with digestive and nourishing properties",
+        benefits: {
+            "Vata": "✅ Excellent - warm, nourishing, grounding",
+            "Pitta": "⚠️ Moderate - warming, use with cooling herbs",
+            "Kapha": "❌ Avoid - too oily and heavy"
+        },
+        healthBenefits: ["Digestive health", "Nutrient absorption", "Brain nourishment", "Immune support"],
+        sideEffects: {
+            "Vata": "Generally safe, very beneficial",
+            "Pitta": "Can increase body heat if excess",
+            "Kapha": "May increase heaviness and congestion"
+        },
+        dosage: "1-2 teaspoons daily with warm milk or food"
+    },
+    "Henna": {
+        description: "Natural plant dye with cooling and conditioning properties",
+        benefits: {
+            "Vata": "⚠️ Moderate - cooling but drying",
+            "Pitta": "✅ Excellent - cooling and soothing",
+            "Kapha": "✅ Good - improves circulation"
+        },
+        healthBenefits: ["Hair coloring", "Scalp cooling", "Conditioning", "Blood circulation"],
+        sideEffects: {
+            "Vata": "May increase dryness if overused",
+            "Pitta": "Generally safe, very cooling",
+            "Kapha": "Generally safe, stimulating"
+        },
+        dosage: "Apply paste 2-3 hours or overnight, 1-2 times monthly"
+    },
+    "Brahmi Oil": {
+        description: "Oil infused with brahmi herb for mind clarity",
+        benefits: {
+            "Vata": "✅ Good - grounding and calming",
+            "Pitta": "✅ Excellent - very cooling",
+            "Kapha": "⚠️ Moderate - may increase cold"
+        },
+        healthBenefits: ["Mental clarity", "Stress relief", "Hair health", "Scalp cooling"],
+        sideEffects: {
+            "Vata": "Generally safe, slightly cooling",
+            "Pitta": "Generally safe, very beneficial",
+            "Kapha": "May increase cold feeling"
+        },
+        dosage: "Apply to scalp and hair, leave 30 minutes to overnight"
+    },
+    "Hibiscus": {
+        description: "Cooling tropical flower with hair care benefits",
+        benefits: {
+            "Vata": "⚠️ Moderate - cooling but uplifting",
+            "Pitta": "✅ Excellent - very cooling and soothing",
+            "Kapha": "✅ Good - improves circulation"
+        },
+        healthBenefits: ["Hair strengthening", "Scalp cooling", "Anti-inflammatory", "Natural conditioning"],
+        sideEffects: {
+            "Vata": "May feel slightly cool, pair with warming oils",
+            "Pitta": "Generally safe, very beneficial",
+            "Kapha": "Generally safe"
+        },
+        dosage: "Use as paste mask 20-30 minutes or infuse in oil"
+    },
+    "Arjun Bark": {
+        description: "Strengthening herb with heart-supporting benefits",
+        benefits: {
+            "Vata": "✅ Good - warming and grounding",
+            "Pitta": "✅ Excellent - cooling and balancing",
+            "Kapha": "✅ Good - stimulating"
+        },
+        healthBenefits: ["Heart health", "Circulation", "Stress relief", "Vitality"],
+        sideEffects: {
+            "Vata": "Generally safe",
+            "Pitta": "Generally safe, balancing",
+            "Kapha": "Generally safe"
+        },
+        dosage: "1 teaspoon powder with warm water daily"
+    },
+    "Kohl (Natural)": {
+        description: "Traditional eye cosmetic made from natural minerals",
+        benefits: {
+            "Vata": "✅ Good - anchoring and grounding",
+            "Pitta": "✅ Excellent - cooling properties",
+            "Kapha": "✅ Good - enhancing and defining"
+        },
+        healthBenefits: ["Eye health", "Eye cooling", "Traditional beauty", "Antimicrobial"],
+        sideEffects: {
+            "Vata": "Generally safe",
+            "Pitta": "Generally safe, cooling",
+            "Kapha": "Generally safe"
+        },
+        dosage: "Apply around eyes daily or as needed"
+    },
+    "Beeswax": {
+        description: "Natural beeswax for protective lip balm formulations",
+        benefits: {
+            "Vata": "✅ Excellent - protective and warming",
+            "Pitta": "⚠️ Moderate - slightly warming",
+            "Kapha": "⚠️ Moderate - protective but may feel heavy"
+        },
+        healthBenefits: ["Lip protection", "Moisture barrier", "Anti-inflammatory", "Natural emollient"],
+        sideEffects: {
+            "Vata": "Generally safe, very protective",
+            "Pitta": "May feel slightly warming",
+            "Kapha": "May feel slightly heavy on lips"
+        },
+        dosage: "Apply topically to lips as needed throughout day"
+    },
+    "Mint": {
+        description: "Cooling aromatic herb with refreshing properties",
+        benefits: {
+            "Vata": "⚠️ Moderate - very cooling and drying",
+            "Pitta": "✅ Excellent - very cooling and refreshing",
+            "Kapha": "✅ Good - stimulating and refreshing"
+        },
+        healthBenefits: ["Cooling sensation", "Freshness", "Digestion", "Mental clarity"],
+        sideEffects: {
+            "Vata": "May increase dryness and gas",
+            "Pitta": "Generally safe, very beneficial",
+            "Kapha": "Generally safe"
+        },
+        dosage: "Use fresh or as oil extract topically"
+    },
+    "Mustard Oil": {
+        description: "Warming penetrating oil with detoxifying properties",
+        benefits: {
+            "Vata": "✅ Excellent - deeply warming and grounding",
+            "Pitta": "❌ Very heating - avoid",
+            "Kapha": "✅ Excellent - stimulating circulation"
+        },
+        healthBenefits: ["Deep penetration", "Circulation stimulation", "Detoxification", "Joint support"],
+        sideEffects: {
+            "Vata": "Generally safe, very beneficial",
+            "Pitta": "Can significantly increase body heat and acidity",
+            "Kapha": "Generally safe, very stimulating"
+        },
+        dosage: "Use for massage 10-15 minutes or warm compress"
     }
 };
 
@@ -377,6 +572,130 @@ const products = [
         actualIngredients: ["Brahmi Leaf Extract", "Bacopa Monnieri"],
         image: "🧠",
         description: "Brain tonic for memory and mental clarity"
+    },
+
+    // New Ayurvedic Wellness Products
+    {
+        id: 15,
+        name: "Wooden Comb",
+        brand: "Organic India",
+        category: "wellness",
+        price: 280,
+        rating: 4.9,
+        reviews: 156,
+        safetyRating: "5-star",
+        certifications: ["Natural", "Cruelty-Free"],
+        ingredients: ["Natural"],
+        actualIngredients: ["Eco-friendly Neem Wood", "Natural finish"],
+        image: "💆",
+        description: "Ayurvedic wooden comb for healthy scalp and hair circulation. Reduces static and breakage. Made from sustainably harvested neem wood with natural anti-bacterial properties."
+    },
+    {
+        id: 16,
+        name: "Gua Sha Stone (Rose Quartz)",
+        brand: "Himalaya",
+        category: "wellness",
+        price: 450,
+        rating: 4.7,
+        reviews: 234,
+        safetyRating: "5-star",
+        certifications: ["Natural", "Cruelty-Free"],
+        ingredients: ["Natural"],
+        actualIngredients: ["Rose Quartz Stone", "Smooth polished finish"],
+        image: "🪨",
+        description: "Traditional gua sha tool for facial massage and healing. Rose quartz promotes relaxation and skincare circulation. Integrates with Ayurvedic facial massage practices for rejuvenation and lymphatic drainage."
+    },
+    {
+        id: 17,
+        name: "Ayurvedic Herbal Soap Bar",
+        brand: "Patanjali",
+        category: "skincare",
+        price: 120,
+        rating: 4.8,
+        reviews: 512,
+        safetyRating: "5-star",
+        certifications: ["India Organic", "Cruelty-Free"],
+        ingredients: ["Neem", "Turmeric (Curcumin)", "Sesame Oil"],
+        actualIngredients: ["Neem Leaf", "Turmeric Root", "Coconut Oil", "Sesame Oil", "Herbs blend"],
+        image: "🧼",
+        description: "Natural Ayurvedic soap with antibacterial neem, anti-inflammatory turmeric, and nourishing sesame oil. Deeply cleanses while maintaining skin balance across all dosha types. No harsh chemicals or sulfates."
+    },
+    {
+        id: 18,
+        name: "Ayurvedic Hair Mask (Brahmi & Hibiscus)",
+        brand: "Baba Ramdev",
+        category: "hair-care",
+        price: 380,
+        rating: 4.8,
+        reviews: 389,
+        safetyRating: "5-star",
+        certifications: ["India Organic"],
+        ingredients: ["Brahmi Oil", "Hibiscus"],
+        actualIngredients: ["Brahmi Oil", "Hibiscus Flower Extract", "Coconut Oil", "Henna", "Amla powder"],
+        image: "💆‍♀️",
+        description: "Deep conditioning hair mask combining cooling brahmi oil for scalp health with hibiscus for strengthening. Conditions hair, reduces mental stress, and promotes thick, lustrous growth. Apply 20-30 minutes before shower."
+    },
+    {
+        id: 19,
+        name: "Sesame Hair Oil (Traditional Warm Oil)",
+        brand: "Organic India",
+        category: "hair-care",
+        price: 520,
+        rating: 4.9,
+        reviews: 678,
+        safetyRating: "5-star",
+        certifications: ["USDA Organic", "India Organic"],
+        ingredients: ["Sesame Oil", "Brahmi Oil"],
+        actualIngredients: ["Organic Sesame Oil", "Brahmi Leaf Extract", "Ashwagandha", "Traditional Ayurvedic herbs"],
+        image: "🌿",
+        description: "Warming traditional sesame oil infused with brahmi for deep scalp nourishment and grounding. Ideal for Vata constitution. Improves circulation, strengthens roots, and provides thermal therapy when warm oil massage is performed."
+    },
+    {
+        id: 20,
+        name: "Ayurvedic Herbal Shampoo (Arjun & Neem)",
+        brand: "Himalaya",
+        category: "hair-care",
+        price: 340,
+        rating: 4.7,
+        reviews: 423,
+        safetyRating: "5-star",
+        certifications: ["Cruelty-Free", "No Sulfates"],
+        ingredients: ["Neem", "Arjun Bark"],
+        actualIngredients: ["Neem Leaf", "Arjun Bark Extract", "Brahmi", "Coconut Oil", "Natural herbs"],
+        image: "🧴",
+        description: "Sulfate-free herbal shampoo combining arjun bark for heart and circulation support with neem for scalp health. Gently cleanses while balancing all doshas. Prevents hair fall and promotes strong, healthy growth."
+    },
+
+    // New Cosmetic Products
+    {
+        id: 21,
+        name: "Natural Kajal (Kohl Eye Liner)",
+        brand: "The Derma Co",
+        category: "cosmetics",
+        price: 280,
+        rating: 4.6,
+        reviews: 267,
+        safetyRating: "5-star",
+        certifications: ["Natural", "Cruelty-Free"],
+        ingredients: ["Kohl (Natural)"],
+        actualIngredients: ["Natural Kohl minerals", "Coconut Oil", "Sesame Oil", "Pure charcoal", "No heavy metals"],
+        image: "👁️",
+        description: "Traditional natural kajal made with pure minerals, coconut oil, and sesame oil. Cooling and soothing to eyes. Trace amounts of active minerals improve eye health. Hypoallergenic and suitable for sensitive eyes. Absorbs well without flaking."
+    },
+    {
+        id: 22,
+        name: "Organic Lip Balm (Rose & Beeswax)",
+        brand: "Organic India",
+        category: "cosmetics",
+        price: 160,
+        rating: 4.7,
+        reviews: 345,
+        safetyRating: "5-star",
+        certifications: ["USDA Organic", "Cruelty-Free"],
+        ingredients: ["Beeswax", "Rose Extract", "Mint"],
+        actualIngredients: ["Natural Beeswax", "Rose Extract", "Mint Oil", "Coconut Oil", "Almond Oil", "Vitamin E"],
+        image: "💄",
+        description: "Nourishing organic lip balm with protective beeswax, cooling rose extract, and refreshing mint. Provides long-lasting hydration and prevents lip dryness. Gentle enough for daily use and contains no artificial colors or flavors."
     }
 ];
 
@@ -630,7 +949,9 @@ const categoryNameMap = {
     "skincare": "Skincare",
     "herbal": "Herbal",
     "protein": "Protein",
-    "ayurveda": "Ayurveda"
+    "ayurveda": "Ayurveda",
+    "wellness": "Wellness Tools",
+    "cosmetics": "Cosmetics"
 };
 
 // ========== RESET FILTERS ==========
