@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Or Search - Organic Product Transparency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🌿 Org.Search</h1>
+            <p class="tagline">Transparent Organic Product Marketplace</p>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+        <!-- SEARCH BAR SECTION -->
+        <section class="search-section">
+            <input type="text" id="searchInput" class="search-bar" placeholder="Search products...">
+            <button class="search-btn">Search</button>
+        </section>
+
+        <!-- CATEGORY FILTER SECTION -->
+        <section class="category-section">
+            <h3>Browse Categories</h3>
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="hair-care">Organic Hair Care</button>
+                <button class="category-btn" data-category="skincare">Organic Skincare</button>
+                <button class="category-btn" data-category="herbal">Herbal Supplements</button>
+                <button class="category-btn" data-category="protein">Protein Powder</button>
+                <button class="category-btn" data-category="ayurveda">Ayurvedic Products</button>
+            </div>
+        </section>
+
+        <div class="content-wrapper">
+            <!-- FILTERS SIDEBAR -->
+            <aside class="filters-sidebar">
+                <h3>Filters</h3>
+
+                <!-- Price Filter -->
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+                    <input type="range" id="priceFilter" min="0" max="5000" value="5000" class="slider">
+                    <p>Up to ₹<span id="priceValue">5000</span></p>
+                </div>
+
+                <!-- Brand Filter -->
+                <div class="filter-group">
+                    <h4>Brand</h4>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="brand" value="Organic India"> Organic India</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="brand" value="Patanjali"> Patanjali</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="brand" value="Himalaya"> Himalaya</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="brand" value="Baba Ramdev"> Baba Ramdev</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="brand" value="The Derma Co"> The Derma Co</label>
+                </div>
+
+                <!-- Certification Filter -->
+                <div class="filter-group">
+                    <h4>Certification</h4>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="certification" value="USDA Organic"> USDA Organic</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="certification" value="EU Organic"> EU Organic</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="certification" value="India Organic"> India Organic</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="certification" value="Cruelty-Free"> Cruelty-Free</label>
+                </div>
+
+                <!-- Safety Rating Filter -->
+                <div class="filter-group">
+                    <h4>Safety Rating</h4>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="safety" value="5-star"> ⭐⭐⭐⭐⭐ 5 Star</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="safety" value="4-star"> ⭐⭐⭐⭐ 4+ Star</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="safety" value="3-star"> ⭐⭐⭐ 3+ Star</label>
+                </div>
+
+                <!-- Ingredient Filter -->
+                <div class="filter-group">
+                    <h4>Ingredients</h4>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="ingredient" value="Natural"> Natural</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="ingredient" value="No Chemicals"> No Chemicals</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="ingredient" value="Vegan"> Vegan</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="ingredient" value="No Sulfates"> No Sulfates</label>
+                </div>
+
+                <button class="reset-filters-btn">Reset Filters</button>
+            </aside>
+
+            <!-- PRODUCTS SECTION -->
+            <section class="products-section">
+                <h3>Products (<span id="productCount">0</span>)</h3>
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be added here by JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Or Search - Organic Product Transparency. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html><
